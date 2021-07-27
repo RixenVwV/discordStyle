@@ -1,11 +1,15 @@
 [style*='background-image: url("/assets/a12ff54c4c5c03b41006fd96a4709c29.svg");']{
-    background-image: url(https://i.imgur.com/G10Gvot.gif) !important;
-    height: 320px !important;/*one day I solve this thing... I swear*/
-    width: 480px !important;
+    background-image: url(https://i.imgur.com/dS1pMo4.gif) !important;
+    height: 100% !important;/*one day I solve this thing... I swear*/
+    width: 53% !important;
 }
-.flex-1xMQg5{
+.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.wrapper-r-6rrt{
     max-width: none;
     max-height: none;
     flex: none;
+    position: absolute;
+    margin-bottom: 0px!important;
+    justify-content:flex-end !important;
 }
+.image-1GzsFd.marginBottom40-2vIwTv{margin-bottom:0px!important;}
 .text-GwUZgS{display: none;} 
