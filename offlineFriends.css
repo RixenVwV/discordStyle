@@ -1,32 +1,32 @@
-[style*='flex: 0 1 auto; width: 421px; height: 218px; background-image: url("/assets/a12ff54c4c5c03b41006fd96a4709c29.svg");']{
+[style*='flex: 0 1 auto; width: 421px; height: 218px; background-image: url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");']{
     background-image: url(https://i.imgur.com/GkxXKGK.gif) !important;
-    background-repeat: no-repeat;/*the data to be overwritten is backgorund-image*/
+    background-repeat: no-repeat;/*il dato da sovrascrivere è backgorund-image*/
     height: 98.5597% !important;/*one day I solve this thing... I swear*/
     width: 67.3968% !important;
     z-index: 999999999;
 }
-[style*='background-image: url("/assets/a12ff54c4c5c03b41006fd96a4709c29.svg");']::before{
+[style*='background-image: url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");']::before{
     content:"";
     background-size: contain;
     background-image: url(https://i.imgur.com/F18pVic.png) !important;
     background-repeat: no-repeat;
-    height: 80.4527% !important;
+    height: 80.4527% !important;/*one day I solve this thing... I swear*/
     width: 42.8812% !important;
-    transform: scaleX(-1);/*ugly but....*/
+    transform: scaleX(-1); 
     position: absolute;
     bottom:-14%;
     right:0%;
 }
-[style*='background-image: url("/assets/a12ff54c4c5c03b41006fd96a4709c29.svg");']::after{
+[style*='background-image: url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");']::after{
     content:"";
     background-size: contain;
     background-image: url(https://i.imgur.com/F18pVic.png) !important;
     background-repeat: no-repeat;
-    height: 80.4527% !important;
+    height: 80.4527% !important;/*one day I solve this thing... I swear*/
     width: 42.8812% !important;
-    /*transform: scaleX(1);*/ 
+    transform: scaleX(1);
     position: absolute;
-    bottom:-14%;/*ugly but....*/
+    bottom:-14%;/*bruttino ma....*/
     left:0%;
 }
 .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.wrapper-r-6rrt{
