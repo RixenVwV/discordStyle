@@ -1,11 +1,11 @@
-[style*='flex: 0 1 auto; width: 421px; height: 218px; background-image: url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");']{
+#online-tab [style*='flex: 0 1 auto; width: 421px; height: 218px; background-image: url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");']{
     background-image: url(https://i.imgur.com/GkxXKGK.gif) !important;
     background-repeat: no-repeat;/*il dato da sovrascrivere è backgorund-image*/
     height: 98.5597% !important;/*one day I solve this thing... I swear*/
     width: 67.3968% !important;
     z-index: 999999999;
 }
-[style*='background-image: url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");']::before{
+#online-tab [style*='background-image: url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");']::before{
     content:"";
     background-size: contain;
     background-image: url(https://i.imgur.com/F18pVic.png) !important;
@@ -17,7 +17,7 @@
     bottom:-14%;
     right:0%;
 }
-[style*='background-image: url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");']::after{
+#online-tab [style*='background-image: url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");']::after{
     content:"";
     background-size: contain;
     background-image: url(https://i.imgur.com/F18pVic.png) !important;
@@ -29,12 +29,12 @@
     bottom:-14%;/*bruttino ma....*/
     left:0%;
 }
-.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.wrapper-r-6rrt{
+#online-tab .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.wrapper-r-6rrt{
     max-width: none;
     max-height: none;
     flex: none none none;
     margin: 0px!important;
     justify-content:flex-end !important;
 }
-.image-1GzsFd.marginBottom40-2vIwTv{margin-bottom:0px!important;}
-.text-GwUZgS{display: none;}
+#online-tab .image-1GzsFd.marginBottom40-2vIwTv{margin-bottom:0px!important;}
+#online-tab .text-GwUZgS{display: none;}
